@@ -33,7 +33,7 @@ nav a:hover{color:#00d0ff}
 
 /* Hero */
 .hero{
-  background:#0a1b33 url('../assets/banner1.png') center/cover no-repeat;
+  background:#0a1b33 url('../assets/banner.png') center/cover no-repeat;
   height:90vh;
   display:flex;
   flex-direction:column;
@@ -79,7 +79,7 @@ nav a:hover{color:#00d0ff}
 
 /* Banner */
 .banner{
-  background:#0a1b33 url('../assets/banner2.png') center/cover no-repeat;
+  background:#0a1b33 ;
   height:40vh;
   display:flex;
   align-items:center;
@@ -141,4 +141,18 @@ footer{
 .social img:hover{
   transform:translateY(-3px) scale(1.1);
   filter:drop-shadow(0 0 6px #00d0ff);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }

@@ -8,5 +8,9 @@ document.querySelectorAll('nav a').forEach(link => {
     if(section){
       section.scrollIntoView({behavior:'smooth'});
     }
+
+    <button onclick="window.location.href='pages/projeto.html'">Projeto</button>
+
+
   });
 });
